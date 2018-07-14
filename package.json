@@ -1,0 +1,26 @@
+{
+  "name": "grab-jet",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@opuscapita/react-dates": "^0.4.2",
+    "react": "^16.4.1",
+    "react-calendar-component": "^2.0.0",
+    "react-date-picker-cs": "^0.1.28",
+    "react-day-picker": "^7.1.10",
+    "react-dom": "^16.4.1",
+    "react-input-calendar": "^0.5.3",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}

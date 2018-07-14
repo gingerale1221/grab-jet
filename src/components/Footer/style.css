@@ -1,0 +1,32 @@
+.App-footer {
+  display: inline-block;
+  width: 1024px;
+}
+.copyright-div {
+	float: right;
+}
+.Copyright {
+	margin: 0;
+}
+.Footer {
+	color: #fff;
+	font-size: 0.8rem;
+	margin: 20px;
+}
+.Footer-menu {
+	list-style: none;
+  display: flex;
+  float: left;
+}
+.Footer-link {
+	margin-left: 20px;
+}
+
+@media (max-width: 1030px) {
+	.App-footer {
+		display: flex;
+		flex-direction: column;
+		max-width: 100%;
+		align-items: center;
+	}
+}

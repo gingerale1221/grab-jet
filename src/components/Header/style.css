@@ -1,0 +1,16 @@
+.App-header {
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  display: flex;
+}
+
+@media (max-width: 530px) {
+	.App-header {
+  	flex-direction: column;
+  	align-items: center;
+	}
+}

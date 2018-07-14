@@ -1,0 +1,95 @@
+.Form {
+	width: 50vw;
+  margin-left: 25vw;
+  border: 1px solid #999;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.25);
+}
+.Header-small {
+	color: #aaa;
+	font-size: 0.7rem;
+	font-weight: 300;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+.Header-large {
+	color: #fff;
+	font-size: 1.25rem;
+	font-weight: 500;
+	margin-top: 0px;
+}
+.Itinerary {
+	text-align: left;
+	padding-top: 10px;
+  padding-left: 20px;
+}
+.Addon {
+	display: flex;
+}
+.Dropdown {
+	flex: 0 0 50%;
+}
+.Dropdown-arrow {
+  border-color: #fff transparent transparent !important;
+}
+.Dropdown-control {
+	background-color: rgba(255, 255, 255, 0.2) !important;
+	border-radius: 0px !important;
+	color: #fff !important;
+}
+.DayPicker-wrapper {
+	border: 1px #999 solid;
+}
+.CallToAction {
+	padding: 20px;
+  width: 100%;
+  background: #33C066;
+  color: #fff;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.2s ease-in-out;
+}
+.CallToAction:hover {
+	background: #333;
+	transition: 0.2 ease-in-out;
+}
+.DayPicker-Caption > div {
+	color: #fff !important;
+  font-size: 0.7rem !important;
+  font-weight: 600 !important;
+
+}
+.DayPicker-NavButton {
+	width: 0.8rem !important;
+  height: 0.8rem !important;
+}
+.DayPicker-Weekday {
+  font-size: 0.75em !important;
+}
+.DayPicker-Week {
+	color: #fff !important;
+  font-size: 0.8rem !important;
+}
+.Grid {
+	list-style: none;
+	display: flex;
+  width: 60vw;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20vw;
+  justify-content: center;
+}
+.GridItem {
+	color: #fff;
+	width: 20vw;
+}
+
+@media (max-width: 1030px) {
+	.Addon {
+		flex-direction: column;
+	}
+	.DayPicker, .Dropdown {
+		flex: 0 0 100%;
+	}
+}

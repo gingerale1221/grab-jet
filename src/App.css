@@ -1,0 +1,17 @@
+body {
+  background-image: url('./background.png');
+  background-size: cover;
+}
+
+.App {
+	font-family: Open Sans, sans-serif;
+  text-align: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}

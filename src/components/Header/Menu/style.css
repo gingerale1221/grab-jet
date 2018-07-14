@@ -1,0 +1,14 @@
+.Menu {
+	display: flex;
+	flex-direction: row;
+	float: right;
+  flex: 0 0 80%;
+  justify-content: flex-end;
+  list-style: none;
+  margin-top: 10px;
+}
+
+
+.menuItem {
+	margin-right: 20px;
+}
