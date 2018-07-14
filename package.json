@@ -3,8 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@opuscapita/react-dates": "^0.4.2",
     "react": "^16.4.1",
+    "react-calendar-component": "^2.0.0",
+    "react-date-picker-cs": "^0.1.28",
+    "react-day-picker": "^7.1.10",
     "react-dom": "^16.4.1",
+    "react-dropdown": "^1.5.0",
+    "react-input-calendar": "^0.5.3",
     "react-scripts": "1.1.4"
   },
   "scripts": {
@@ -15,13 +21,7 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
   "main": "index.js",
-  "devDependencies": {
-    "react-calendar-component": "^2.0.0",
-    "react-date-picker-cs": "^0.1.28",
-    "react-day-picker": "^7.1.10",
-    "@opuscapita/react-dates": "^0.4.2",
-    "react-input-calendar": "^0.5.3"
-  },
+  "devDependencies": {},
   "author": "",
   "license": "ISC"
 }
