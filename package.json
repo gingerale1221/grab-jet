@@ -20,7 +20,7 @@
     "react-date-picker-cs": "^0.1.28",
     "react-day-picker": "^7.1.10",
     "@opuscapita/react-dates": "^0.4.2",
-    "react-input-calendar": "^0.5.3",
+    "react-input-calendar": "^0.5.3"
   },
   "author": "",
   "license": "ISC"
